@@ -52,9 +52,9 @@ rm -rf app
 cp -R ../my-old-remix-app/app app
 ```
 
-```sh
 ### Help
 
+```sh
 1-Open vscode in side parent folder (code)
 
 2-run following command
