@@ -52,6 +52,7 @@ rm -rf app
 cp -R ../my-old-remix-app/app app
 ```
 
+```sh
 ### Help
 
 1-Open vscode in side parent folder (code)
@@ -96,3 +97,4 @@ paste it
 10-change/simplify app/routes/index.jsx for testing
 
 11-npm run dev (file in pont 8 will be created) and project will start on http://localhost:3000/
+```
