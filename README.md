@@ -51,3 +51,48 @@ rm -rf app
 # copy your app over
 cp -R ../my-old-remix-app/app app
 ```
+
+### Help
+
+1-Open vscode in side parent folder (code)
+
+2-run following command
+npx create-remix@latest blog(blog-app name)
+-Just the basics
+-Remix App Server
+-JavaScript
+-Y
+
+3- Open blog folder in vscode
+
+4- Problem in jsconfig.json (for javascript project)
+
+ts to js and tsx to jsx
+
+5- install tailwind
+npm install -D tailwindcss postcss autoprefixer concurrently
+
+6- create tailwind config file
+
+npx tailwindcss init
+
+it will generate ./tailwind.config.js
+
+change it by pasting
+
+6-Update the scripts in your package.json file to build both your development and production CSS.
+
+paste it
+
+7-Add the Tailwind directives to your CSS
+
+./styles/app.css
+
+paste it
+8- import ./styles/app.css in root.jsx (./styles/app.css will create on npm run dev)
+
+9- create link function
+
+10-change/simplify app/routes/index.jsx for testing
+
+11-npm run dev (file in pont 8 will be created) and project will start on http://localhost:3000/
